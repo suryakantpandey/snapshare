@@ -1,6 +1,6 @@
 const express = require("express");
 const mongoose = require("mongoose");
-const { MONGOURI } = require("./keys");
+const { MONGOURI } = require("./config/keys");
 const app = express();
 const PORT = process.env.PORT || 5000;
 
@@ -31,4 +31,4 @@ if (process.env.NODE_ENV == "production") {
 
 app.listen(PORT, () => {
   console.log("server is running on", PORT);
-}); 
+});
