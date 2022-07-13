@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap");
+a {
+  color: black !important;
+}
+
+.brand-logo {
+  font-family: "Grand Hotel", cursive;
+}
+.card1 {
+  margin-top: 8%;
+}
+.auth-card {
+  padding: 20px;
+  text-align: center;
+  width: 350px;
+  margin: 10px auto;
+  height: auto;
+  background-color: rgb(68, 21, 237);
+}
+.login-title {
+  font-weight: 500;
+}
+.input-field input[type="text"]:focus {
+  box-shadow: 0px 0.5px 0px 0px #000 !important;
+  border: 0px 0.5px 0px 0px #000 !important;
+}
+.input-field input[type="password"]:focus {
+  box-shadow: 0px 0.5px 0px 0px #000 !important;
+  border: 0px 0.5px 0px 0px #000 !important;
+}
+.login-btn {
+  margin-top: 20px;
+  width: 280px !important;
+  background-color: rgb(42, 116, 236) !important;
+}
+.login-box {
+  width: 280px;
+  margin: auto;
+}
+.clr {
+  text-decoration-color: rgb(241, 91, 64);
+}
+.signup-sub {
+  margin: 15px;
+  width: 280px;
+  color: gray;
+  font-size: large;
+}
+.signup-sub1 {
+  margin: 20px auto;
+  width: 280px;
+  color: gray;
+  font-size: smaller;
+  text-align: center;
+}
+.profile-pic {
+  width: 160px;
+  height: 160px;
+  border-radius: 80px;
+}
+
+.profile-box {
+  margin: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.data-box {
+  display: flex;
+  align-content: center;
+  width: 128%;
+  justify-content: space-between !important;
+}
+.profile-page {
+  text-align: center;
+  margin: 0px auto;
+  max-width: 900px;
+  border: 0.5px solid rgb(228, 227, 227);
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.item {
+  width: 30%;
+  margin-bottom: 1%;
+}
+
+.home-card {
+  max-width: 700px;
+  height: max-content;
+  margin: 26px auto;
+  background-color: #f51720;
+}
+
+.create-box {
+  margin: 30px auto;
+  display: flexbox;
+  max-width: 500px;
+  padding: 20px;
+  text-align: center;
+}
+.post-btn {
+  display: flexbox;
+  width: 100px;
+  padding: 10px auto;
+}
+.search_box {
+  width: 100px;
+  padding: 20% !important;
+  align-content: center;
+}
+#toast-container {
+  top: 30px !important;
+  right: 20px !important;
+  left: auto !important;
+}
+.comment-icon {
+  margin: 10px;
+}
+
+.make-like {
+  background-color: #f8d210;
+}
+.follow {
+  margin-top: 1.6rem;
+  margin-inline-end: auto;
+}
+.navp {
+  padding-left: 17%;
+  padding-right: 17%;
+  background-color: #4c5270;
+}
+body {
+  background-color: #bcece0;
+}
