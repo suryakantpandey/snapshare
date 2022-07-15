@@ -97,7 +97,7 @@ const Signup = () => {
   return (
     <div className="card1">
       <div className="card auth-card input-field">
-        <h2 className="brand-logo login-title">Instagram</h2>
+        <h2 className="brand-logo login-title">Snapshare</h2>
         <h6 className="signup-sub">
           Sign up to see photos and videos from your friends.
         </h6>
